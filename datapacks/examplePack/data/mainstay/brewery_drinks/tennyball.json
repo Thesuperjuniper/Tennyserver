@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 720.0,
+    "best_barrel_age": 1200.0,
+    "best_barrel_type": [
+      "oak"
+    ],
+    "distillation_runs": 2
+  },
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.5, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:sugar"
+      ],
+      "count": 10
+    },
+    {
+      "items": [
+        "minecraft:wheat"
+      ],
+      "count": 5
+    },
+    {
+      "items": [
+        "minecraft:blaze_powder"
+      ],
+      "count": 4
+    }
+  ],
+  "distillation_runs": 2,
+  "barrel_definitions": [
+    {
+      "type": "minecraft:oak",
+      "quality_value": "quality",
+      "reveal_time": 300
+    },
+    {
+      "type": "minecraft:dark_oak",
+      "quality_value": "quality",
+      "reveal_time": 300
+    },
+    {
+      "type": "*",
+      "quality_value": "quality * 0.8",
+      "reveal_time": 300
+    }
+  ],
+  "base_quality_value": "smooth_value_days(3.5, 2.0, 5.0, age) * 10",
+  "alcoholic_value": "50",
+  "entries": [
+    {
+      "type": "potion",
+      "effect": "minecraft:blindness",
+      "time": "20",  // Duration between 3 and 9 minutes, based on quality
+      "value": "1"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:speed",
+      "time": "180",  // Duration between 2 and 6 minutes, based on quality
+      "value": "2"
+    }
+  ],
+  "name": {
+    "translate": "Tenny Ball"
+  },
+  "color": "#ff9a00",
+  "visual": {
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "ewogICJ0aW1lc3RhbXAiIDogMTc4NTAyOTYzOTAxMSwKICAicHJvZmlsZUlkIiA6ICI4NDg3ZDYwNWE1ZGY0NDE5ODVkOWNjOTExZDQ0MjNkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXJUZW5uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI5NTgyYjIwMDRkNmJjYWM4MjYyZTkxYjVhZWRiNTg3Yzk1OTMzMTlhZmZjMzlhMTUwZGM3Yjc3MDcyMmU5YWIiCiAgICB9CiAgfQp9"
+          }
+        ]
+      }
+    }
+  }
+}

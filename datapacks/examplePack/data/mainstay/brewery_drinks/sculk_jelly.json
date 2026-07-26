@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "name": {
+    "text": "Sculk Jelly",
+    "bold": false,
+    "italic": false
+  },
+  "color": "#FFFFFF",
+  "alcoholic_value": "0",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:sculk_shrieker"
+      ],
+      "count": 3
+    }
+  ],
+  "cooking_quality_multiplier": "smooth_value_minutes(10.0, 0.5, 10.0, age)",
+  "base_quality_value": "10",
+  "entries": [
+    {
+      "type": "potion",
+      "effect": "minecraft:night_vision",
+      "time": "600",
+      "value": "1"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:saturation",
+      "time": "300",
+      "value": "0"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:jump_boost",
+      "time": "300",
+      "value": "1"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:nausea",
+      "time": "60",
+      "value": "4"
+    }
+  ],
+  "visual": {
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE2MjgyYjM3ODcxMThlZmI4MjBjNmRmMWEzNWFmMDhmZGRjMDEwY2Q2YzcyMTI4NzQ3NTllZmNmZjViY2RjOSJ9fX0="
+          }
+        ]
+      }
+    }
+  },
+  "barrel_definitions": [
+    {
+      "type": "*",
+      "quality_value": "quality",
+      "reveal_time": 300
+    }
+  ],
+  "book_information": {
+    "best_cooking_time": 600.0,
+    "best_barrel_age": -300.0
+  }
+}

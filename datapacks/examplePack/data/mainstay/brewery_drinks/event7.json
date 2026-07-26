@@ -1,0 +1,75 @@
+{
+  "book_information": {
+    "best_cooking_time": 360.0,
+    "best_barrel_age": 0.0
+  },
+  "version": 2,
+  "cooking_quality_multiplier": "cos(clamp((age/60 - 50.0)*0.5, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:wheat"
+      ],
+      "count": 5
+    },
+    {
+      "items": [
+        "minecraft:golden_carrot"
+      ],
+      "count": 2
+    },
+    {
+      "items": [
+        "minecraft:glow_berries"
+      ],
+      "count": 4
+    }
+  ],
+  "base_quality_value": "15",
+  "alcoholic_value": "0",
+  "entries": [
+    {
+      "type": "potion",
+      "locked": false,
+      "effect": "minecraft:jump_boost",
+      "time": "600",
+      "value": "1"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:regeneration",
+      "time": "120",
+      "value": "1"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:glowing",
+      "time": "600",
+      "value": "0"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:saturation",
+      "time": "600",
+      "value": "0"
+    }
+  ],
+  "name": {
+    "text": "Santa's Reindeer Treat",
+    "color": "red",
+    "bold": true
+  },
+  "color": "#FF4500",
+  "visual": {
+    "item": "minecraft:golden_carrot",
+    "components": {
+      "lore": [
+        '{"text":"Feed this to Santa\'s reindeer!","color":"green"}',
+        '{"text":""}',
+        '{"text":"Boost their flight and health!","color":"gold"}',
+        '{"text":""}',
+        '{"text":"Careful... it glows with magic.","color":"light_purple"}'
+      ]
+    }
+  }
+}

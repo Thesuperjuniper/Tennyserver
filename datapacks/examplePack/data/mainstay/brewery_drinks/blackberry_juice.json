@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 20.0,
+    "best_barrel_age": 0.0
+  },
+  "cooking_quality_multiplier": "cos(clamp((age/60 - 100.0)*0.5, -2, 2))",
+  "alcoholic_value": "0",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:sweet_berries"
+      ],
+      "count": 5
+    },
+    {
+      "items": [
+        "minecraft:black_dye"
+      ],
+      "count": 5
+    }
+  ],
+ 
+  "base_quality_value": "10",
+  "entries": [
+    {
+      "type": "potion",
+      "effect": "minecraft:speed",
+      "time": "300",
+      "value": "1"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:saturation",
+      "time": "20",
+      "value": "0"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:regeneration",
+      "time": "180",
+      "value": "0"
+    }
+  ],
+  "name": {
+    "text": "Blackberry Juice"
+  },
+  "color": "#23063D",
+    "visual": {
+      
+        
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/lily_of_the_valley",
+        "weight": 201
+      },
+      {
+        "model": "fancy_foliage:block/foliage/flowers/easter_egg/webster",
+        "weight": 1
+      }
+    ]
+  }
+}

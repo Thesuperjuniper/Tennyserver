@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/cornflower",
+        "weight": 10
+      },
+      {
+        "model": "fancy_foliage:block/foliage/flowers/cornflower/purple_cornflower",
+        "weight": 5
+      }
+    ]
+  }
+}

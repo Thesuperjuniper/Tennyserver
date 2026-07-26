@@ -1,0 +1,6 @@
+{
+	"parent": "item/netherite_hoe",
+	"textures": {
+		"layer0": "item/tools/netherite_hoe/fortune"
+	}
+}

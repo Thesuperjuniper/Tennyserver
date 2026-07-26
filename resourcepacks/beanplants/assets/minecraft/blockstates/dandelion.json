@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/dandelion",
+        "weight": 10
+      },
+      {
+        "model": "fancy_foliage:block/foliage/flowers/dandelion/wishlet",
+        "weight": 10
+      },
+      {
+        "model": "fancy_foliage:block/foliage/flowers/dandelion/pink_hawksbeard",
+        "weight": 7
+      }
+    ]
+  }
+}

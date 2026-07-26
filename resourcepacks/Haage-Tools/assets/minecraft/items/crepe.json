@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "🥧",
+          "pie"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/foods/crepe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/foods/crepe"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "fancy_foliage:block/foliage/flowers/rose_bush/blue_rose_bush_bottom"
+  }
+}

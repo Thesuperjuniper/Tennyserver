@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "half=lower": [
+      {
+        "model": "minecraft:block/lilac_bottom",
+        "weight": 10
+      },
+      {
+        "model": "fancy_foliage:block/foliage/flowers/lilac/white_lilac_bottom",
+        "weight": 2
+      }
+    ],
+    "half=upper": [
+      {
+        "model": "minecraft:block/lilac_top",
+        "weight": 10
+      },
+      {
+        "model": "fancy_foliage:block/foliage/flowers/lilac/white_lilac_top",
+        "weight": 2
+      }
+    ]
+  }
+}

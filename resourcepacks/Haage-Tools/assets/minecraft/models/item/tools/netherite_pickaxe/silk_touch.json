@@ -1,0 +1,6 @@
+{
+	"parent": "item/netherite_pickaxe",
+	"textures": {
+		"layer0": "item/tools/netherite_pickaxe/silk_touch"
+	}
+}

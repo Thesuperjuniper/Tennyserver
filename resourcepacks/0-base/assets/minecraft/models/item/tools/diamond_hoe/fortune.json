@@ -1,6 +1,0 @@
-{
-	"parent": "item/diamond_hoe",
-	"textures": {
-		"layer0": "item/tools/diamond_hoe/fortune"
-	}
-}

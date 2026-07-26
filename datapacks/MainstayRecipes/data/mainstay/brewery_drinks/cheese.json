@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 300.0,
+    "best_barrel_age": 1800.0,
+    "best_barrel_type": [
+      "oak"
+    ]
+  },
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.5, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:milk_bucket"
+      ],
+      "count": 3
+    }
+  ],
+  "barrel_definitions": [
+    {
+      "type": "*",
+      "quality_value": "quality * 0.8",
+      "reveal_time": 300
+    }
+  ],
+  "base_quality_value": "smooth_value_days(3.5, 2.0, 5.0, age) * 10",
+  "alcoholic_value": "6 * (0.75 + quality / 40)",
+  "entries": [
+    {
+      "type": "potion",
+      "effect": "minecraft:saturation",
+      "time": "clamp((quality * 30), 180, 540)",  // Duration between 3 and 9 minutes, based on quality
+      "value": "quality / 5 - 1.2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:regeneration",
+      "time": "clamp((quality * 20), 120, 360)",  // Duration between 2 and 6 minutes, based on quality
+      "value": "quality / 5 - 1.2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:strength",
+      "time": "clamp((quality * 15), 90, 300)",  // Duration between 1.5 and 5 minutes, based on quality
+      "value": "quality / 5 - 1.2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:poison",
+      "time": "clamp((quality * -5), 0, 10)",  // Short poison effect for low-quality cheese
+      "value": "quality / 5 - 1.2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:resistance",
+      "time": "clamp((quality * 10), 60, 180)",  // Duration between 1 and 3 minutes, based on quality
+      "value": "quality / 5 - 1.2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:fire_resistance",
+      "time": "clamp((quality * 15), 90, 300)",  // Duration between 1.5 and 5 minutes, based on quality
+      "value": "quality / 5 - 1.2"
+    }
+  ],
+  "name": {
+    "translate": "Cheeese"
+  },
+  "color": "#f4e1b2",
+  "visual": {
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRmZWJiYzE1ZDFkNGNjNjJiZWRjNWQ3YTJiNmYwZjQ2Y2Q1YjA2OTZhODg0ZGU3NWUyODllMzVjYmI1M2EwIn19fQ=="
+          }
+        ]
+      }
+    }
+  }
+}

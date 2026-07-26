@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 1800.0,
+    "best_barrel_age": 36000.0,
+    "best_barrel_type": [
+      "oak"
+    ]
+  },
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.5, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:sugar"
+      ],
+      "count": 64
+    },
+    {
+      "items": [
+        "minecraft:diamond"
+      ],
+      "count": 5
+    },
+    {
+      "items": [
+        "minecraft:dragon_egg"
+      ],
+      "count": 1
+    }
+  ],
+  "barrel_definitions": [
+    {
+      "type": "minecraft:oak",
+      "quality_value": "quality",
+      "reveal_time": 300
+    },
+    {
+      "type": "minecraft:dark_oak",
+      "quality_value": "quality",
+      "reveal_time": 300
+    },
+    {
+      "type": "*",
+      "quality_value": "quality * 0.8",
+      "reveal_time": 300
+    }
+  ],
+  "base_quality_value": "smooth_value_days(3.5, 2.0, 5.0, age) * 10",
+  "alcoholic_value": "0",
+  "entries": [
+    {
+      "type": "potion",
+      "effect": "minecraft:saturation",
+      "time": "18000",  // Duration between 3 and 9 minutes, based on quality
+      "value": "10"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:regeneration",
+      "time": "18000",  // Duration between 2 and 6 minutes, based on quality
+      "value": "10"
+    }
+  ],
+  "name": {
+    "translate": "My Darling Kiwi"
+  },
+  "color": "#ff9a00",
+  "visual": {
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTIwMjEyODc3MSwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwYjk5NGM3NDUyMmQ5ZDljNDYyMTFhNzRlNWI1MTllZDc5ZTMzZGFhZjA5OTU0MDdlMDNiM2M0ZDNiMTMzOCIKICAgIH0KICB9Cn0="
+          }
+        ]
+      }
+    }
+  }
+}

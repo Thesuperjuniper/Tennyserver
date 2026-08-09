@@ -8,7 +8,7 @@
     ],
     "distillation_runs": 2
   },
-  "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.5, -2, 2))",
+  "cooking_quality_multiplier": "cos(clamp((age / 144 - 5.0) * 0.5, -2, 2))",
   "ingredients": [
     {
       "items": [

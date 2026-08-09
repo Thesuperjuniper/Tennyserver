@@ -47,7 +47,7 @@
       "reveal_time": 300
     }
   ],
-  "base_quality_value": "smooth_value_days(3.5, 2.0, 5.0, age) * 10",
+  "base_quality_value": "smooth_value_days(0.75, 0.5, 1.0, age) * 10",
   "alcoholic_value": "50",
   "entries": [
     {

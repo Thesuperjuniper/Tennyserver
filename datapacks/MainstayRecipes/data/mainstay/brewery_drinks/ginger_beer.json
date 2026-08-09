@@ -38,7 +38,7 @@
     {
       "type": "potion",
       "effect": "minecraft:saturation",
-      "time": "10",
+      "time": "0.15",
       "value": "0"
     },
     {

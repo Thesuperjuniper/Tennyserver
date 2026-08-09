@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 120.0,
+    "best_barrel_age": 0.0
+  },
+  "cooking_quality_multiplier": "cos(clamp((age/24 - 5.0)*0.5, -2, 2))",
+  "alcoholic_value": "0",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:cocoa_beans"
+      ],
+      "count": 5
+    },
+    {
+      "items": [
+        "minecraft:brown_dye"
+      ],
+      "count": 2
+    }
+  ],
+ 
+  "base_quality_value": "10",
+  "entries": [
+    {
+      "type": "potion",
+      "effect": "minecraft:speed",
+      "time": "300",
+      "value": "2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:saturation",
+      "time": "0.15",
+      "value": "0"
+    }
+  ],
+  "name": {
+    "text": "Coffee"
+  },
+  "color": "#3B1502",
+    "visual": {
+      
+        
+  }
+}

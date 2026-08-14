@@ -10,23 +10,23 @@
       "items": [
         "minecraft:sugar"
       ],
-      "count": 2
+      "count": 4
     },
     {
       "items": [
         "minecraft:wheat"
       ],
-      "count": 4
+      "count": 6
+    },
+    {
+      "items": [
+        "easierbrewingpolymer:milk"
+      ],
+      "count": 2
     },
     {
       "items": [
         "minecraft:egg"
-      ],
-      "count": 1
-    },
-    {
-      "items": [
-        "minecraft:sweet_berries"
       ],
       "count": 3
     }
@@ -38,17 +38,25 @@
     {
       "type": "potion",
       "effect": "minecraft:saturation",
-      "time": "0.3",
+      "time": "0.4",
       "value": "0"
     }
   ],
   "name": {
-    "translate": "Berry Scone"
+    "translate": "Pancakes"
   },
   "color": "#f5deb3",
   "visual": {
-  "components": {
-    "item_model": "minecraft:berryscone"
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA2ZmZmNjcyNTZmNDA3Njc5ODYwOGNlYTRkYjU3NmUyZDMxZWIyMGVkNDYxYzI2MWE3NDYzZWIyMzdjMGY3NiJ9fX0="
+          }
+        ]
+      }
+    }
   }
-}
 }

@@ -10,13 +10,13 @@
       "items": [
         "minecraft:sugar"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "items": [
         "minecraft:wheat"
       ],
-      "count": 4
+      "count": 3
     },
     {
       "items": [
@@ -26,7 +26,7 @@
     },
     {
       "items": [
-        "minecraft:cocoa_beans"
+        "minecraft:sweet_berries"
       ],
       "count": 3
     }
@@ -43,12 +43,12 @@
     }
   ],
   "name": {
-    "translate": "Brownies"
+    "translate": "Berry Fritter"
   },
   "color": "#f5deb3",
   "visual": {
   "components": {
-    "item_model": "minecraft:brownie"
+    "item_model": "minecraft:berryfritter"
   }
 }
 }

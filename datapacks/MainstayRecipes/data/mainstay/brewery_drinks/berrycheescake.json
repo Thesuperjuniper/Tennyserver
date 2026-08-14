@@ -10,23 +10,29 @@
       "items": [
         "minecraft:sugar"
       ],
-      "count": 3
+      "count": 5
     },
     {
       "items": [
         "minecraft:wheat"
       ],
-      "count": 4
+      "count": 1
+    },
+    {
+      "items": [
+        "easierbrewingpolymer:milk"
+      ],
+      "count": 3
     },
     {
       "items": [
         "minecraft:egg"
       ],
-      "count": 2
+      "count": 1
     },
     {
       "items": [
-        "minecraft:cocoa_beans"
+        "minecraft:sweet_berries"
       ],
       "count": 3
     }
@@ -43,12 +49,20 @@
     }
   ],
   "name": {
-    "translate": "Brownies"
+    "translate": "Berry Cheescake"
   },
   "color": "#f5deb3",
   "visual": {
-  "components": {
-    "item_model": "minecraft:brownie"
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhNzRhN2I4MjU4MDQ2YmQ3NWExNDI2NTM1ZjIyNDI5YTdkM2Y1NGY2YThmMWY4NmI1Y2Q1ZWEyNDM0MDVhMSJ9fX0="
+          }
+        ]
+      }
+    }
   }
-}
 }

@@ -10,13 +10,13 @@
       "items": [
         "minecraft:sugar"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "items": [
         "minecraft:wheat"
       ],
-      "count": 4
+      "count": 3
     },
     {
       "items": [
@@ -26,9 +26,15 @@
     },
     {
       "items": [
-        "minecraft:cocoa_beans"
+        "minecraft:wheat_seeds"
       ],
-      "count": 3
+      "count": 2
+    },
+    {
+      "items": [
+        "minecraft:orange_dye"
+      ],
+      "count": 1
     }
   ],
   "distillation_runs": 0,
@@ -43,12 +49,12 @@
     }
   ],
   "name": {
-    "translate": "Brownies"
+    "translate": "Orange Pistachio Cookies"
   },
   "color": "#f5deb3",
   "visual": {
   "components": {
-    "item_model": "minecraft:brownie"
+    "item_model": "minecraft:pistachiocardamomorangecookie"
   }
 }
 }

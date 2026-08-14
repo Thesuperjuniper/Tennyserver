@@ -16,19 +16,13 @@
       "items": [
         "minecraft:wheat"
       ],
-      "count": 4
+      "count": 1
     },
     {
       "items": [
-        "minecraft:egg"
+        "minecraft:blue_dye"
       ],
-      "count": 2
-    },
-    {
-      "items": [
-        "minecraft:cocoa_beans"
-      ],
-      "count": 3
+      "count": 1
     }
   ],
   "distillation_runs": 0,
@@ -38,17 +32,25 @@
     {
       "type": "potion",
       "effect": "minecraft:saturation",
-      "time": "0.35",
+      "time": "0.15",
       "value": "0"
     }
   ],
   "name": {
-    "translate": "Brownies"
+    "translate": "Blue Macaron"
   },
   "color": "#f5deb3",
   "visual": {
-  "components": {
-    "item_model": "minecraft:brownie"
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA3ZjFiN2RiMGZkYjJmODUzZWY4OTJjNDM4ZjE0ZTZjZjhlN2U1MTM2ZGI5NGNkODYyY2FlZTE3OGE5Yzg0YSJ9fX0="
+          }
+        ]
+      }
+    }
   }
-}
 }
